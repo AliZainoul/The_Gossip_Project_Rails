@@ -1,0 +1,7 @@
+<h1>Welcome</h1>
+<p> There is the list of all Gossips </p>
+<p> <% @all.each do |gossip| %> </p>
+<p> Title : <%= gossip.title %>,  </p>
+<p> Author : <%= gossip.user.first_name %> </p>
+<hr/>
+<%end%>
